@@ -26,12 +26,10 @@ Otherwise, you can run the Makefile commands individually (you need to have a C+
 1. Navigate to the folder in command prompt or bash
 
 Enter the following commmands:
-2. g++ -I src/include -c mainkian.cpp -static-libgcc -static-libstdc++
-3. g++ mainkian.o -o main -L src/lib -l sfml-graphics -l sfml-window -l sfml-system
+1. g++ -I src/include -c mainkian.cpp -static-libgcc -static-libstdc++
+2. g++ mainkian.o -o main -L src/lib -l sfml-graphics -l sfml-window -l sfml-system
 
 This should generate a main.exe file, this is the game executable. Have fun!
-
-
 
 
 
